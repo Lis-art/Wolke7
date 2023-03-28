@@ -1,3 +1,147 @@
+@font-face {
+    font-family: Inconsolata;
+    src: url('Inconsolata-Regular.ttf');
+}
+@font-face {
+    font-family: InconsolataBold;
+    src: url('Inconsolata-ExtraBold.ttf');
+}
+
 *{
-    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Inconsolata', Arial, Helvetica, sans-serif;
+}
+
+nav{
+    text-align: right;
+    margin: 15px 15px 0 auto;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+}
+
+.bildText{
+    background-image: url('Home1_1.png');
+    height: 50%;
+    width: 50%;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+section{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+
+}
+section:not(:first-child){
+   background-color: #F8F8F8;
+}
+
+.bildText p{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    line-height: 8px;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.cloudOne{
+    background-image: url('Home2.png');
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+}
+
+.cloudTwo{
+    background-image: url('Home3.png');
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+}
+
+section:nth-of-type(4){
+    color:black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+section:nth-of-type(4) article{
+    width: 50%;
+    margin: auto;
+    height: 50%;
+
+}
+
+h3{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 19px;
+    padding: 15px;
+    font-family: 'InconsolataBold', Arial, Helvetica, sans-serif;
+
+}
+
+section:nth-of-type(4) article p{
+    padding: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.cloudThree{
+    background-image: url('Stories2.png');
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+.Bild2{
+    background-image: url('Home6.png');
+}
+
+.Bild2 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color:white;
+    text-align: center;
+    padding: 43px 50px 48px 50px;
 }

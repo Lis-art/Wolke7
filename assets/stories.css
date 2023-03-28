@@ -1,0 +1,145 @@
+@font-face {
+    font-family: IBMreg;
+    src: url('IBMPlexMono-Regular.ttf');
+}
+@font-face {
+    font-family: IBMbold;
+    src: url('IBMPlexMono-Bold.ttf');
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'IBMreg', Arial, Helvetica, sans-serif;
+}
+
+header, main{
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    text-align: right;
+    margin: 30px 0px 30px auto;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+}
+
+
+
+.bild1{
+    background-image: url('Stories1.png');
+}
+
+.bild1 p{
+    text-align: right;
+    text-transform: uppercase;
+    padding: 30px 50px;
+    font-weight: 400;
+    line-height: 19.3px;
+    color: white;
+    margin: 82px 68px 185px 652px
+
+}
+
+.bild1 p::first-letter{
+    font-size: 40px;
+    line-height: 38.6px;
+}
+
+.bild1 p span{
+    color: #FEBB80;
+    line-height: 19.3px;
+    font-size: 20px;
+}
+
+
+
+.bild2{
+    background-image: url('Stories2.png');
+}
+
+.bild2 p{
+    text-align: left;
+    text-transform: uppercase;
+    padding: 30px 50px;
+    font-weight: 400;
+    font-size: 20px;
+    /*padding: 164px 638px 119px 127px;*/
+}
+
+.bild2 p::first-line{
+    font-weight: 800;
+}
+
+.bild2 p::first-line{
+    font-family: 'IBMbold';
+}
+
+
+
+.bild3{
+    background-image: url('Stories3.png');
+}
+
+.bild3 p{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px 50px;
+    line-height: 19.3px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+
+
+
+.bild4{
+    background-image: url('Stories4.png');
+}
+
+.bild4 h1{
+    font-family: 'IBMreg';
+    font-weight: bold;
+    line-height: 21px;
+    color: #F6F6F6;
+    opacity: 0.8;
+    font-size: 37px;
+    text-transform: uppercase;
+}
+
+.bild4 h1 span{
+    color: #5C5C5C;
+    font-size: 40px;
+}
+
+.bild4 p{
+    text-align: left;
+    text-transform: uppercase;
+    padding: 30px 50px;
+    color: #9175A5;
+    font-weight: 400;
+    line-height: 19.3px;
+    font-size: 20px;
+}
+
+
+section{
+    background-position: center;
+    height: 340px;
+    background-repeat: no-repeat;
+    margin-bottom: 53px;
+    background-size: 100%;
+}
+
