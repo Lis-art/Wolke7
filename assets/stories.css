@@ -14,6 +14,7 @@
 }
 
 html{
+    font-size: 62.5%;
     font-family: 'IBMreg', Arial, Helvetica, sans-serif;
 }
 
@@ -32,11 +33,20 @@ a{
     text-decoration: none;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: clamp(1rem, 2vw ,2rem);
     line-height: 19px;
 }
 
-
+section{
+    background-position: center;
+    height: 340px;
+    background-repeat: repeat;
+    margin-bottom: 53px;
+    background-size: cover;
+}
+section:last-child {
+    margin-bottom: 0;
+}
 
 .bild1{
     background-image: url('Stories1.png');
@@ -45,23 +55,23 @@ a{
 .bild1 p{
     text-align: right;
     text-transform: uppercase;
-    padding: 30px 50px;
+    padding: 6vh 10vw 0 0;
     font-weight: 400;
     line-height: 19.3px;
+    font-size: clamp(1rem, 2vw ,2rem);
     color: white;
-    margin: 82px 68px 185px 652px
-
+    /*margin: 82px 68px 185px 652px*/
 }
 
 .bild1 p::first-letter{
-    font-size: 40px;
+    font-size: clamp(3rem, 1vw ,4rem);
     line-height: 38.6px;
 }
 
 .bild1 p span{
     color: #FEBB80;
     line-height: 19.3px;
-    font-size: 20px;
+    font-size: clamp(1rem, 2vw ,2rem);
 }
 
 
@@ -73,9 +83,9 @@ a{
 .bild2 p{
     text-align: left;
     text-transform: uppercase;
-    padding: 30px 50px;
+    padding: 10vh 0 0 10vw;
     font-weight: 400;
-    font-size: 20px;
+    font-size: clamp(1rem, 2vw ,2rem);
     /*padding: 164px 638px 119px 127px;*/
 }
 
@@ -96,10 +106,10 @@ a{
 .bild3 p{
     text-align: center;
     text-transform: uppercase;
-    padding: 30px 50px;
+    padding: 10vw 0 0 0;
     line-height: 19.3px;
     font-weight: 400;
-    font-size: 20px;
+    font-size: clamp(1rem, 2vw ,2rem);
     color: white;
 }
 
@@ -115,31 +125,30 @@ a{
     line-height: 21px;
     color: #F6F6F6;
     opacity: 0.8;
-    font-size: 37px;
+    font-size: clamp(1rem, 2vw, 3.7rem);;
     text-transform: uppercase;
+    padding: 10vh 0 0 3vw;
 }
 
 .bild4 h1 span{
     color: #5C5C5C;
-    font-size: 40px;
+    font-size: clamp(2rem, 2vw ,4rem);
 }
 
 .bild4 p{
     text-align: left;
     text-transform: uppercase;
-    padding: 30px 50px;
+    padding: 2vh 0 0 3vw;
     color: #9175A5;
     font-weight: 400;
     line-height: 19.3px;
-    font-size: 20px;
+    font-size: clamp(1rem, 2vw ,2rem);
 }
 
-
-section{
-    background-position: center;
-    height: 340px;
-    background-repeat: no-repeat;
-    margin-bottom: 53px;
-    background-size: 100%;
+footer{
+    font-size: clamp(1rem, 2vw ,2rem);
+    background-color:white;
+    text-align: center;
+    padding: 43px 50px 48px 50px;
 }
 
