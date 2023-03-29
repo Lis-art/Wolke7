@@ -98,7 +98,6 @@ section:nth-of-type(4) article{
     width: 50%;
     margin: auto;
     height: 50%;
-
 }
 
 h3{
@@ -108,7 +107,6 @@ h3{
     line-height: 19px;
     padding: 15px;
     font-family: 'InconsolataBold', Arial, Helvetica, sans-serif;
-
 }
 
 section:nth-of-type(4) article p{
@@ -119,11 +117,11 @@ section:nth-of-type(4) article p{
     line-height: 14px;
 }
 
-.Bild2{
+.bild-2{
     background-image: url('Home6.png');
 }
 
-.Bild2 p{
+.bild-2 p{
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
