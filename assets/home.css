@@ -65,18 +65,19 @@ section:not(:first-child){
     transform: translateY(-50%);
 }
 
-.cloudOne{
+.cloud-One{
     background-image: url('Home2.png');
-    background-repeat: no-repeat;
-
-    background-size: cover;
-    background-position: center;
 }
 
-.cloudTwo{
+.cloud-Two{
     background-image: url('Home3.png');
-    background-repeat: no-repeat;
+}
 
+.cloud-Three{
+    background-image: url('Stories2.png');
+}
+[class|=cloud] {
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -117,15 +118,6 @@ section:nth-of-type(4) article p{
     font-size: 14px;
     line-height: 14px;
 }
-
-.cloudThree{
-    background-image: url('Stories2.png');
-    background-repeat: no-repeat;
-
-    background-size: cover;
-    background-position: center;
-}
-
 
 .Bild2{
     background-image: url('Home6.png');
